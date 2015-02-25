@@ -8,7 +8,7 @@ address {
 }
 h2, h3 {
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   margin-top: 0px;
 }
 ul {
@@ -35,6 +35,16 @@ p {
   padding-bottom: 30px;
   margin-right: 15px;
   margin-left: 15px;
+}
+.project p {
+  padding: 10px 0 0 0;
+  margin: 0 0 0 0;
+}
+.subheader {
+  font-weight: normal;
+  font-size: 110%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 @media print {
