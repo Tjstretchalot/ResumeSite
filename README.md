@@ -1,4 +1,4 @@
 # ResumeSite
-Resume site
+Resume Site
 
-My site; mooretimothy.com, which is mostly static HTML pages.
+One-page static, responsive HTML5 and CSS site that can be either viewed either in browser or printed.
