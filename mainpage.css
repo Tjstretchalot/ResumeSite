@@ -15,7 +15,8 @@ ul {
   margin-top: 0px;
 }
 p {
-  margin-top: 1px;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 .projects-list {
   margin-left: 0px;
