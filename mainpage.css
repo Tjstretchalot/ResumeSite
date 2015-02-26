@@ -48,8 +48,12 @@ p {
 }
 
 @media print {
+  address {
+    margin-bottom: 10px;
+  }
   .project {
     width: 245px;
+    padding-bottom: 15px;
   }
   a {
     font-style: normal;
