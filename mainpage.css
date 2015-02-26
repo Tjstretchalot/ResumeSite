@@ -23,9 +23,6 @@ p {
   list-style-type:none;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row wrap;
-  align-content: flex-start;
-  align-items: flex-start;
   justify-content: center;
 }
 .project {
@@ -46,16 +43,16 @@ p {
 }
 
 @media print {
-.project {
-  width: 245px;
-}
-a {
-  font-style: normal;
-  text-decoration: none;
-  color: black;
-}
-
-.noprint {
-  display: none;
-}
+  .project {
+    width: 245px;
+  }
+  a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .noprint {
+    display: none;
+  }
 }
