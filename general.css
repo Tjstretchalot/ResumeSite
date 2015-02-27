@@ -6,3 +6,24 @@ body {
   max-width: 1280px;
   font-family: 'Calibri';
 }
+
+.ralign {
+  float: right;
+  text-align: right;
+  width: 100%;
+  padding-right: 50px;
+}
+
+
+@media print {
+  .ralign {
+    padding-right: 0px;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+.lalign {
+  text-align: left;
+}
