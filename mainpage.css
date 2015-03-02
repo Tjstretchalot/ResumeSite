@@ -1,3 +1,6 @@
+/* While the padding on the headers looks nice on more standard
+   websites, it looks a bit strange when combined with the printer
+   format */
 h1 {
   text-align: center;
   margin-bottom: 5px;
@@ -12,12 +15,17 @@ h2, h3, h4 {
   padding-bottom: 0px;
   margin-top: 0px;
 }
+/* The lists have a similar issue, especially for the projects
+   lists which has a lot of spacing inherently */
 ul {
   margin-top: 0px;
 }
 p {
   margin-top: 0px;
 }
+/* Using top padding without bottom padding makes up for the
+   ul having no bottom margin / padding while also not making
+   an excessive space below */
 .projects-list {
   padding: 10px 0 0 0;
   margin: 0 0 0 0;
@@ -36,6 +44,7 @@ p {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
+/* Only one wide project per line */
 .wideproject {
   padding-bottom: 30px;
   margin-right: 15px;
@@ -46,6 +55,8 @@ p {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
+/* Used for the engineersinauburn.com hyperlink, only
+   emphasized by a small increase in font size */
 .subheader {
   font-weight: normal;
   font-size: 110%;
@@ -57,6 +68,7 @@ p {
   padding-bottom: 10px;
 }
 
+/* Basically make everything have less padding and be smaller */
 @media print {
   address {
     margin-bottom: 10px;
