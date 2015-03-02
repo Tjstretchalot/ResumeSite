@@ -74,4 +74,8 @@ p {
   .noprint {
     display: none;
   }
+  
+  ul {
+    margin-bottom: 0px;
+  }
 }
